@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:orientation="vertical"
+        android:gravity="bottom">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baby1"
+        android:scaleType="centerInside"
+        android:layout_margin="0dp"
+        android:padding="0dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="عاوز حضانة"
+        android:textSize="24dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21dp"
+        android:text="يعمل تطبيق عاوز حضانة على توفير حضانات الأطفال المبتسرين بجميع أنواعها سواء كانت تنفس صناعى أو سباب أو ناقص فى النمو وارتفاع في نسبة الصفراء فى مستشفيات ومراكز خاصة أو حكومى أو اقتصادى"
+        />
+
+</LinearLayout>
